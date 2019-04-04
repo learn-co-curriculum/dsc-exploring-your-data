@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this lesson you'.l learn about performing an exploratory data analysis task, using all the statistical and visual EDA skills you have seen so far. 
+In this lesson you'll learn about performing an exploratory data analysis task, using all the statistical and visual EDA skills you have seen so far. 
 
 ## Objectives
 
