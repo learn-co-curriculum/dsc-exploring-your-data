@@ -4,15 +4,14 @@
 
 ## Introduction
 
-In this lesson you'll learn about performing an exploratory data analysis task, using all the statistical and visual EDA skills you have learned so far. 
+In this lesson you'll learn about performing an EDA task, using all the statistical and visual EDA skills you have learned so far. 
 
 ## Objectives
 
 You will be able to:
 
-* Check the distribution of various columns
-* Examine the descriptive statistics of our dataset
-* Create visualizations to help us better understand our dataset
+* Examine the descriptive statistics of our data set
+* Create visualizations to better understand the distributions of variables in a dataset
 
 
 ## Exploratory Data Analysis
@@ -32,7 +31,7 @@ Getting a feel for the distribution of a dataset is done in a few different ways
 >                                            - Isaac Asimov
 
 
-Recall that pandas can easily provide descriptive statistics of a DataFrame by using the DataFrame class's built-in `.describe()` method.  The resulting output is a table containing information such as the count, mean, median, min, max, and quartile values for every column in the DataFrame.  This is especially handy for answering questions such as "how much variance can I expect in column {X}?"
+Recall that Pandas can easily provide descriptive statistics of a DataFrame by using the DataFrame class's built-in `.describe()` method.  The resulting output is a table containing information such as the count, mean, median, min, max, and quartile values for every column in the DataFrame.  This is especially handy for answering questions such as "how much variance can I expect in column {X}?"
 
 ### Visualizing Distributions - Histograms
 
@@ -42,7 +41,7 @@ The easiest way to understand the distribution of a dataset is to visualize it! 
 
 ### Visualizing Distributions - Kernel Density Estimation (KDE) Plots
 
-Another great way of quickly visualizing the distribution of a column is to construct a **_KDE Plot_**. This is often overlaid on a histogram to create a line that visualizes the probability mass for every value in the histogram. 
+Another great way of quickly visualizing the distribution of a column is to construct a **_KDE Plot_**. This is often overlaid on a histogram to create a line that visualizes an approximate probability density of the variable. 
 
 <img src='images/sample_kde.png'>
 
@@ -69,8 +68,4 @@ It is worth noting that the goal of EDA is not pretty visualizations -- it's _in
 
 ## Summary
 
-In this lesson, you learned how to:
-
-* Check the distribution of various columns
-* Examine the descriptive statistics of a dataset
-* Create visualizations to help better understand a dataset
+In this lesson, you reviewed descriptive statistics and data visualizations -- two critical components of EDA. Specifically, you reviewed the `.describe()` method for obtaining the descriptive statistics of a DataFrame. You then saw how you can use data visualizations like histograms, KDE plots, and joint plots to gain some insight into your data!
