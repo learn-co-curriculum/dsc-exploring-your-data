@@ -1,4 +1,3 @@
-
 # Exploring Your Data
 
 
@@ -37,13 +36,13 @@ Recall that Pandas can easily provide descriptive statistics of a DataFrame by u
 
 The easiest way to understand the distribution of a dataset is to visualize it! Recall that since `pandas` uses the `matplotlib` library, you can easily create histograms showing the distribution of each column by using the DataFrame's built-in `.hist()` method.  
 
-<img src='images/sample_hist.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/sample_hist.png'>
 
 ### Visualizing Distributions - Kernel Density Estimation (KDE) Plots
 
 Another great way of quickly visualizing the distribution of a column is to construct a **_KDE Plot_**. This is often overlaid on a histogram to create a line that visualizes an approximate probability density of the variable. 
 
-<img src='images/sample_kde.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/sample_kde.png'>
 
 
 ### Using Joint Plots
@@ -58,7 +57,7 @@ sns.jointplot(x= <column>, y= <column>, data=<dataset>, kind='reg')
 
 ```
 
-<img src='images/sample_jointplot.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/sample_jointplot.png'>
 
 For full details on how to create joint plots with seaborn, see the [seaborn documentation on joint plots](https://seaborn.pydata.org/generated/seaborn.jointplot.html)!
 
